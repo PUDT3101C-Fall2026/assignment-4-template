@@ -4,7 +4,7 @@
 
 ## Using this Template
 
-Create a new repository with this template
+You can create a new repository from this template using the **Use this template** button and selecting **Create a new repository**.
 
 ```bash
 npm install

@@ -3,7 +3,7 @@
   "scripts": {
     "server": "node source/server/main.js",
     "client": "vite serve source/client",
-    "build": "vite build source/client"
+    "build": "vite build source/client --base=${BaseName:-/}"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.3.0",
