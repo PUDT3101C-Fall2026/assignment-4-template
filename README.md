@@ -6,24 +6,24 @@
 
 You can create a new repository from this template using the **Use this template** button and selecting **Create a new repository**.
 
+Afterwards, make a local clone of your repository and run `npm install` to install everything.
+
 ```bash
 npm install
 ```
 
-## Running the Client
+## Running the App
 
-You can run the client with the script:
+This app has two parts: a client and a server. To run both, you'll need two terminals.
+
+In one, run the client with this command:
 
 ```bash
 npm run client
 ```
 
-## Running the Server
-
-To run the server on your own, run the following command:
+In the other, run the server with this command:
 
 ```bash
-npm start
+npm run server
 ```
-
-**You'll need to run both scripts at the same time in separate terminals.**
